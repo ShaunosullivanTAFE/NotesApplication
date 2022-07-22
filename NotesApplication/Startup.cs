@@ -17,10 +17,11 @@ namespace NotesApplication
 {
     public class Startup
     {
+        // Create a reference to the config file
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            //
+            
         }
 
         public IConfiguration Configuration { get; }
